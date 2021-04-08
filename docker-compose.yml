@@ -29,7 +29,7 @@ services:
   nginx:
     image: nginx:alpine
     volumes:
-      - /home/ubuntu/main-toptal/nginx:/etc/nginx/conf.d
+      - /home/ubuntu/toptal/nginx:/etc/nginx/conf.d
       - /data/html:/var/www/html
     ports:
       - 8080:80
